@@ -1,0 +1,41 @@
+@import url(./style-zero.css);
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  &:focus-visible {
+    outline: 4px solid #6366f1;
+    outline-offset: 3px;
+  }
+}
+
+.title {
+  font-size: 54px;
+  line-height: 1.1;
+  color: #6366f1;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.score-board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-board__text {
+  color: #61dafb;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 40px 0;
+}
