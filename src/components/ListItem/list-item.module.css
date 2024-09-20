@@ -23,7 +23,6 @@
   width: 100%;
   background-color: #6366f1;
   z-index: 1;
-  transition: background-color 0.2s;
   &:hover {
     background-color: #4648b1;
   }
@@ -35,4 +34,8 @@
   &:hover {
     background-color: transparent;
   }
+}
+
+.list__curtain_close {
+  background-color: #6366f1;
 }

@@ -12,7 +12,7 @@ function ListItem({ icon, open, onClick }: ListItemProps) {
       <button className={styles.list__button} onClick={onClick}>
         <div
           className={`${styles.list__curtain} ${
-            open ? styles.list__curtain_open : ""
+            open ? styles.list__curtain_open : styles.list__curtain_close
           }`}
         ></div>
         <p className={styles.list__text}>{icon}</p>
