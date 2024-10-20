@@ -40,3 +40,11 @@
   gap: 10px;
   margin: 40px 0;
 }
+
+@media (max-width: 650px) {
+  .score-board {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}

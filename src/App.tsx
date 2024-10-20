@@ -26,6 +26,7 @@ function App() {
 
   const symbols = ["🐶", "🐱", "🦁", "🐹", "🐰", "🦝", "🫎", "🐼"]
 
+  //   функция перемешивания массива
   function mixingArray(arr: Array<string>): Array<string> {
     const doubleArr = [...arr, ...arr]
     for (let i = doubleArr.length - 1; i > 0; i--) {
@@ -35,6 +36,7 @@ function App() {
     return doubleArr
   }
 
+  //   функция создания объекта на основе перемешенного массива, с добавлением id, symbol и flipped(флаг состояния открытия закрытия)
   function creatingAnObject(
     arr: Array<string>
   ): Array<{ id: number; symbol: string; flipped: boolean }> {

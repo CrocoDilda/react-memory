@@ -39,3 +39,31 @@
 .list__curtain_close {
   background-color: #6366f1;
 }
+
+@media (max-width: 540px) {
+  .list__text {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  .list__button {
+    padding: 10px;
+    aspect-ratio: 1/1;
+  }
+
+  .list__text {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 350px) {
+  .list__button {
+    padding: 8px;
+    aspect-ratio: 1/1;
+  }
+
+  .list__text {
+    font-size: 32px;
+  }
+}
